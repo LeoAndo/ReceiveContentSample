@@ -18,4 +18,4 @@ Android 12から [OnReceiveContentListener](https://developer.android.com/refere
 
 | Insert using Paste<br> from long-press menu | Insert using drag and drop (image) | Insert using drag and drop (video) | insert a keyboard image |
 ----|---- |----|----
-|  | <img src="https://user-images.githubusercontent.com/16476224/118485167-0b9ded80-b753-11eb-8e80-9b22ce20f112.gif" width=320 /> |   | <img src="https://user-images.githubusercontent.com/16476224/118485561-91219d80-b753-11eb-852e-9ede2e512827.gif" width=320 /> |
+| <img src="https://user-images.githubusercontent.com/16476224/118488454-b663db00-b756-11eb-8774-5b4383a3872e.gif" width=320 /> | <img src="https://user-images.githubusercontent.com/16476224/118488449-b532ae00-b756-11eb-863b-fec4e3956f4a.gif" width=320 /> | <img src="https://user-images.githubusercontent.com/16476224/118488425-aea43680-b756-11eb-84cf-73fed8f544a4.gif" width=320 />  | <img src="https://user-images.githubusercontent.com/16476224/118485561-91219d80-b753-11eb-852e-9ede2e512827.gif" width=320 /> |
