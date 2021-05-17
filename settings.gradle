@@ -1,0 +1,2 @@
+rootProject.name = "ReceiveContentSample"
+include ':app'
