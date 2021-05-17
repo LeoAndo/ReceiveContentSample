@@ -14,6 +14,10 @@ Android 12から [OnReceiveContentListener](https://developer.android.com/refere
 
 # 動作確認(キャプチャ)
 
+動作確認には、以下の外部アプリを使用しました。
+- Google Chrome (プリイン)
+- File Exploler (プリイン)
+
 ## Pixcel 4 OS 12 preview
 
 | Insert using Paste<br> from long-press menu | Insert using drag and drop (image) | Insert using drag and drop (video) | insert a keyboard image |
