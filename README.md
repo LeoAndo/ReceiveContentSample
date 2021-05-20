@@ -12,6 +12,10 @@ Android 12から [OnReceiveContentListener](https://developer.android.com/refere
 [androidx.core:core-ktx:1.5.0-beta03](https://developer.android.com/jetpack/androidx/releases/core#1.5.0-beta03)<br>
 [androidx.appcompat:appcompat:1.3.0-beta01](https://developer.android.com/jetpack/androidx/releases/appcompat#1.3.0-beta01)<br>
 
+現在、androidxの下位互換APIを使うのに以下の制約がある
+- `AppCompatEditText` にのみ有効。将来的には他のViewでもコンテンツ挿入機能を有効にすることを検討している
+[ref](https://youtu.be/D2cU_itNDAI?t=1602)
+
 # 動作確認(キャプチャ)
 
 動作確認には、以下の外部アプリを使用しました。
