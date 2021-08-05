@@ -1,26 +1,25 @@
 # ReceiveContentSample
 sample for unified-content-api(Android 12 +)
 
-# コンテンツ受信用のUnified APIについて
+# about unified-content-api
+With the existing API, the API to call for each action such as "clipboard, keyboard, drag and drop" to insert content into the app was different.<br>
+Since Android 12 added the [OnReceiveContentListener](https://developer.android.com/reference/android/view/OnReceiveContentListener) interface, <br>
+This interface allows you to hook events with content inserted in various actions.<br>
+[link1](https://developer.android.com/about/versions/12/features/unified-content-api#overview)
 
-既存APIでは、アプリにコンテンツを挿入するために「クリップボード、キーボード、ドラッグ&ドロップ」などのアクションごとに呼び出すAPIが異なっていました。<br>
-Android 12から [OnReceiveContentListener](https://developer.android.com/reference/android/view/OnReceiveContentListener) インターフェースが追加されたので、<br>
-このインターフェースを使えば、さまざまなアクションでのコンテンツが挿入されたイベントをフックできます。<br>
-[リンク１](https://developer.android.com/about/versions/12/features/unified-content-api#overview)
-
-# 使用ライブラリ
+# use libraries
 [androidx.core:core-ktx:1.5.0-beta03](https://developer.android.com/jetpack/androidx/releases/core#1.5.0-beta03)<br>
 [androidx.appcompat:appcompat:1.3.0-beta01](https://developer.android.com/jetpack/androidx/releases/appcompat#1.3.0-beta01)<br>
 
-現在、androidxの下位互換APIを使うのに以下の制約がある
-- `AppCompatEditText` にのみ有効。将来的には他のViewでもコンテンツ挿入機能を有効にすることを検討している<br>
+Currently, there are the following restrictions to use the backward compatible API of androidx.<br>
+- Valid only for `AppCompatEditText`. We are considering enabling the content insertion function in other views in the future. <br>
 [ref](https://youtu.be/D2cU_itNDAI?t=1602)
 
-# 動作確認(キャプチャ)
+# capture
 
-動作確認には、以下の外部アプリを使用しました。
-- Google Chrome (プリイン)
-- File Exploler (プリイン)
+The following external application was used to check the operation.
+- Google Chrome
+- File Exploler
 
 ## Pixcel 4 OS 12 preview
 
