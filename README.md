@@ -1,6 +1,8 @@
 # ReceiveContentSample
 sample for unified-content-api(Android 12 +)
 
+[日本語版README](https://github.com/LeoAndo/ReceiveContentSample/blob/main/readme/README_JP.md)
+
 # about unified-content-api
 With the existing API, the API to call for each action such as "clipboard, keyboard, drag and drop" to insert content into the app was different.<br>
 Since Android 12 added the [OnReceiveContentListener](https://developer.android.com/reference/android/view/OnReceiveContentListener) interface, <br>
